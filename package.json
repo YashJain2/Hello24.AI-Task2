@@ -1,0 +1,20 @@
+{
+  "name": "woocommerce",
+  "version": "1.0.0",
+  "description": "An Application implementing the Task 1 using the WooCommerce REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "Yash Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^7.5.1",
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "shopify-api-node": "^3.12.6"
+  }
+}
