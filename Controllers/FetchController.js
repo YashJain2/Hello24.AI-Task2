@@ -24,7 +24,7 @@ module.exports.Fetch = async (req, res) => {
       //here the first fetches the number of nodes in the graphql DB
       // cursor is the string that points to the last index of each page, used to retrieve the next fromm there
       const query = `{
-        collections(first: 5, query: "created_at:>=2021-12-12 AND created_at:<=2023-12-29", after:${cursor}) {
+        collections(first: 5, query: "created_at:>=2022-12-12 AND created_at:<=2022-12-29", after:${cursor}) {
           pageInfo {
             hasNextPage
             endCursor
